@@ -214,6 +214,92 @@ nav .list-item {
   font-size: 24px;
 }
 
+@media only screen and (max-width: 740px) {
+  header {
+    font-family: "Roboto", sans-serif;
+    padding: ;
+    background-color: #7030cc;
+    color: #ffffff;
+    border-radius: ;
+  }
 
+  nav .logo img {
+    display: none;
+  }
+
+  nav .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 10rem;
+  }
+
+  .hero-left p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .hero-right img {
+    height: 200px;
+  }
+
+  .features {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-left img {
+    height: 200px;
+  }
+
+  .feature-right h2 {
+    font-size: 2rem;
+    width: 10rem;
+  }
+
+  .service-cards {
+    flex-direction: column;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    
+    text-align: justify;
+    
+    width: 298px;
+}
+.hero-left p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  width: 300px;
+}
+.feature-card div h3 {
+  font-size: 24px;
+  text-align: justify;
+  width: 260px;
+}
+
+.feature-right h2 {
+  font-size: 2rem;
+  width: 10rem;
+  width: 226px;
+}
+}
 
 
